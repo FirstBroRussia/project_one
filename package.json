@@ -1,0 +1,25 @@
+{
+  "name": "project_one",
+  "description": "Тестовый проект для оттачивания навыков в вёрстке и стилилизации",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:FirstBroRussia/project_one.git"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.14",
+    "eslint": "7.18.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "browser-sync start --server --no-ui --files \"js/**/*.js\"",
+    "test": "eslint js/"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
+  "homepage": "https://github.com/FirstBroRussia/project_one.git",
+  "main": "main.js",
+  "author": "Eugene Eugene"
+
+}
